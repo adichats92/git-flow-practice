@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+footer {
+    position: fixed;
+    margin: 5px;
+    padding: 2px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(152, 141, 141, 0.646);
+    color: rgba(144, 96, 96, 0.635);
+    text-align: center;
+    height: 50px;
+}
+footer a {
+    display: inline-flex;
+    flex-direction: row;
+    padding: auto;
+    font-size: 15px;
+}
+footer a:hover {
+    transform: scale(1.1);
+}
+footer a:hover{
+    transition: ease-in-out;
+}
