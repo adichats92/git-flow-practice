@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "Exo 2";
+    src: url(resources/Exo_2);
+  }
+
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: "Exo 2";
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-image: linear-gradient(130deg, rgb(201, 113, 216), rgb(129, 216, 170));
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 1px;
+    margin: 0em 1em 2em 1em ;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+   
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border: 1em;
+    padding: 1em;
+}
+
+li > a:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 4px #00ff6a;
+}
+
+li > a:hover {
+    transition: ease-in-out 0.5s;
+}
+
+li > a:active {
+    transform: scale(0.6);
+    text-shadow: 0 0 3px #ff006a;
+}
+
+li > a:active {
+    transition: ease-in-out 0.3s;
+}
+
+body > nav {
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    height: 9em;
+    margin-top: 0;
+    background-color: rgba(61, 61, 61, 0.65);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    border: 1em;
+    padding: 2em;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgba(61, 61, 61, 0.65);
+    box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.2), 6px 6px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+footer > div > p {
+    display: inline-flex;
+    width: 7em;
+    font-size: 18px;
+    text-align: center;
+    padding: 0.2em;
+    max-width: 7em;
+    max-height: 3em;
+    margin: 1em 0.1em 1em 0.1em;
+    border: 0.2em;
+    color: white;
+}
+footer > div > a { 
+    padding: 0.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.sm-image {
+    height: 3em;
+    width: 3em;
+    margin: 1em 0.1em 0em 0.1em;
+    padding: 0.2em;
+    border: 0.1;
+}
+
+.sm-image:hover  {
+    transform: scale(1.2);
+}
+.sm-image:hover{
+    transition: ease-in-out 0.6s;
+}
+.sm-image:active {
+    transform: scale(0.4);
+}
+.sm-image:active {
+    transition: ease-in-out 0.3s;
+
+}
+body > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    background-color: transparent;
+}
+section > div {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.Home-Section {
+    color: white;
+    background-color: transparent;
+    padding: 1em;
+    text-align: center;
+    font-size: 45px;
+    margin: 3em;
+    font-weight: bolder;
+    max-width: 10em;
+    align-self: center;
+    border-radius: 30em;
+    text-shadow: 0 0 4px #362c35;
+
+}
+.Home-Section:hover {background-color: rgba(61, 61, 61, 0.50);
+
+    transition: 1.3s;
+}
+section > div > p {
+    color:white;
+    background-color: rgba(61, 61, 61, 0.50);
+    padding: 2rem;
+    font-size: 36px;
+    margin: 3rem;
+    min-height: 40rem;
+    border-radius: 1em;
+    line-height: 1.6em;
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.About-Us {
+    background-color: transparent;
+    padding: 1em;
+    border-style: solid;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin: 3em;
+    font-weight: bolder;
+    max-width: 10em;
+    align-self: center;
+    border-radius: 30em;
+    text-shadow: 0 0 4px #2e4538;
+}
+.About-Us:hover {background-color: rgba(61, 61, 61, 0.50);
+
+    transition: 1.3s;
+}
+#paragraph {
+    margin-bottom: 20em;
+}
