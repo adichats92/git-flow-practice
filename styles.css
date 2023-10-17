@@ -116,4 +116,34 @@ footer div a {
 }
 .sm-image:active {
     transition: ease-in-out 0.3s;
+}.Home-Section {
+    color: brown;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+
+}
+.Home-Section:hover {background-color: black;
+
+    transition: 1.3s;
+}
+p {color: chocolate;
+background-color: aqua;
+padding: 20px;
+
+}
+body {background-color: cadetblue;}
+.About-Us {
+    background-color: blueviolet;
+    padding: 20px;
+    border-style: solid;
+    color: brown;
+    text-align: center;
+}
+.About-Us:hover {background-color: black;
+
+    transition: 1.3s;
 }
