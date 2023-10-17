@@ -42,4 +42,5 @@ body {background-color: cadetblue;}
 }
 .About-Us:hover {background-color: black;
 
-    transition:
+    transition: 1.3s;
+}
