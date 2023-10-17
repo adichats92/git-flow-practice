@@ -57,10 +57,12 @@ li > a:active {
 }
 
 body > nav {
+    position: sticky;
     left: 0px;
+    top: 0px;
     height: 9em;
     margin-top: 0;
-    background-color: rgba(61, 61, 61, 0.50);
+    background-color: rgba(61, 61, 61, 0.65);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -73,11 +75,11 @@ footer {
     bottom: 0px;
     width: 100%;
     justify-content: space-evenly;
-    background-color: rgba(61, 61, 61, 0.50);
+    background-color: rgba(61, 61, 61, 0.65);
     box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.2), 6px 6px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
-footer div p {
+footer > div > p {
     display: inline-flex;
     width: 7em;
     font-size: 18px;
@@ -87,10 +89,9 @@ footer div p {
     max-height: 3em;
     margin: 1em 0.1em 1em 0.1em;
     border: 0.2em;
-    opacity: 1;
-   
+    color: white;
 }
-footer div a { 
+footer > div > a { 
     padding: 0.2em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -102,7 +103,6 @@ footer div a {
     margin: 1em 0.1em 0em 0.1em;
     padding: 0.2em;
     border: 0.1;
-    
 }
 
 .sm-image:hover  {
@@ -116,34 +116,70 @@ footer div a {
 }
 .sm-image:active {
     transition: ease-in-out 0.3s;
-}.Home-Section {
-    color: brown;
-    background-color: blueviolet;
-    padding: 20px;
+
+}
+body > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    background-color: transparent;
+}
+section > div {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.Home-Section {
+    color: white;
+    background-color: transparent;
+    padding: 1em;
     text-align: center;
+    font-size: 45px;
+    margin: 3em;
+    font-weight: bolder;
+    max-width: 10em;
+    align-self: center;
+    border-radius: 30em;
+    text-shadow: 0 0 4px #362c35;
+
+}
+.Home-Section:hover {background-color: rgba(61, 61, 61, 0.50);
+
+    transition: 1.3s;
+}
+section > div > p {
+    color:white;
+    background-color: rgba(61, 61, 61, 0.50);
+    padding: 2rem;
     font-size: 36px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-style: solid;
-
+    margin: 3rem;
+    min-height: 40rem;
+    border-radius: 1em;
+    line-height: 1.6em;
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
-.Home-Section:hover {background-color: black;
 
-    transition: 1.3s;
-}
-p {color: chocolate;
-background-color: aqua;
-padding: 20px;
-
-}
-body {background-color: cadetblue;}
 .About-Us {
-    background-color: blueviolet;
-    padding: 20px;
+    background-color: transparent;
+    padding: 1em;
     border-style: solid;
-    color: brown;
+    color: white;
     text-align: center;
+    font-size: 45px;
+    margin: 3em;
+    font-weight: bolder;
+    max-width: 10em;
+    align-self: center;
+    border-radius: 30em;
+    text-shadow: 0 0 4px #2e4538;
 }
-.About-Us:hover {background-color: black;
+.About-Us:hover {background-color: rgba(61, 61, 61, 0.50);
 
     transition: 1.3s;
+}
+#paragraph {
+    margin-bottom: 20em;
 }
